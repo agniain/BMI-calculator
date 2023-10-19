@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <AppHeader />
-      <h2>Hello, this is my portfolio!</h2>
+      <h2 className="title">Hello, this is my portfolio!</h2>
       <div className="content"><AppContent /></div>
       <div className="footer"><AppFooter />
       </div>

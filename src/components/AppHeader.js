@@ -10,7 +10,7 @@ function CollapsibleExample() {
         <Navbar.Brand href="#home">agniain</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#">Story</Nav.Link>
             <Nav.Link href="#">Media</Nav.Link>
             <NavDropdown title="Contacts" id="collapsible-nav-dropdown">
