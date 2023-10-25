@@ -13,7 +13,8 @@ function TodayDateTime() {
     };
   }, []); 
 
-  const jakartaOptions = { timeZone: 'Asia/Jakarta', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'};
+  const jakartaOptions = { timeZone: 'Asia/Jakarta', weekday: 'long', 
+        year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit'};
   const formattedDateTime = currentDateTime.toLocaleDateString(undefined, jakartaOptions);
 
   return (
