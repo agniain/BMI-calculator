@@ -1,18 +1,29 @@
 import React from 'react';
+import './App.css';
+import {
+  Route,
+  Routes,
+} from "react-router-dom";
+import Media from './components/media';
+import About from './components/about';
+import Home from './components/home';
 import AppHeader from './components/AppHeader';
 import AppFooter from './components/AppFooter';
-import AppContent from './components/AppContent';
-import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      <AppHeader />
-      <h2 className="title">Hello, this is my portfolio!</h2>
-      <div className="content"><AppContent /></div>
-      <div className="footer"><AppFooter />
+    <>
+      <div className="App">
+        <AppHeader />
+        <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/media" element={<Media />}></Route>
+        </Routes>
+        {/* <RouterProvider router={router}/> */}
+        <div className="footer"><AppFooter /></div>
       </div>
-    </div>
+    </>
   );
 }
 
