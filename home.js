@@ -3,7 +3,7 @@ import AppContent from './AppContent';
 const Home = () => {
   return (
     <div className="App">
-      <h4 className="title">Hello, Healthy People!</h4>
+      <h2 className="title">Hello, Healthy People!</h2>
       <div className="content"><AppContent /></div>
     </div>
   );

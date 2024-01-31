@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <NavLink to="/" className="navbar-brand">agniain</NavLink>
+        <NavLink to="/" className="navbar-brand">BMI CALCULATOR</NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
